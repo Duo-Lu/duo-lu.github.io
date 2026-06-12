@@ -51,9 +51,19 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                I am broadly interested in core database systems, synchronization methods, and machine learning systems. 
-                I am currently focused on efficiently implementing, chaining, and optimizing various LLM operators within a streaming processing system, with an emphasis on high-dimensional embedding/vector operators and indexes.
-                My previous work was to build and evaluate database indexes on persistent memory.
+                I build data systems for the AI era, with research spanning two complementary paths:
+              </p>
+              <p>
+                <strong>Vector search.</strong>
+                I design and evaluate vector search techniques inside modern database systems, with an emphasis on
+                filtered and filter-agnostic vector search, high-dimensional embedding operators, and indexes that
+                integrate efficiently with relational query processing and stream processing.
+              </p>
+              <p>
+                <strong>Declarative agentic AI data systems.</strong>
+                I work on declarative abstractions for composing and optimizing LLM/agentic pipelines, treating prompts
+                and agents as first-class, optimizable operators so that data systems can plan, chain, and adapt
+                AI-driven workloads automatically.
               </p>
             </td>
           </tr>
@@ -70,14 +80,51 @@
     
             <tr> 
               <td style="vertical-align:middle;padding:20px; padding-top:5px; width:100%">
+              <a href="https://arxiv.org/pdf/2604.14401">
+              <papertitle>Credo: Declarative Control of LLM Pipelines via Beliefs and Policies</papertitle>
+              </a>
+              <br>
+              <u>Duo Lu</u>, Andrew Crotty, Uğur Çetintemel
+              <br>
+              International Conference on Very Large Data Bases (<strong>VLDB</strong>), 2026. <em>(Demo Track)</em>
+              <br>
+              <p>
+              
+              </p>
+              </td>
+            </tr>
+
+            <tr> 
+              <td style="vertical-align:middle;padding:20px; padding-top:5px; width:100%">
+              <a href="https://ai-discovery-in-the-wild.github.io/papers/E2gjGO6bnt.pdf">
+              <papertitle>Declarative Data Services: Structured Agentic Discovery for Composing Data Systems</papertitle>
+              </a>
+              <br>
+              Shanshan Ye*, <u>Duo Lu</u>*
+              <br>
+              AI Agents for Discovery in the Wild (<strong>AID-WilD</strong>) 
+              @ ACM Conference on AI and Agentic System (ACM CAIS), 2026.
+              <br>
+              <em>* Equal contribution.</em>
+              <br>
+              <p>
+              
+              </p>
+              </td>
+            </tr>
+
+            <tr> 
+              <td style="vertical-align:middle;padding:20px; padding-top:5px; width:100%">
               <a href="https://arxiv.org/pdf/2603.23710">
               <papertitle>An In-Depth Study of Filter-Agnostic Vector Search on a PostgreSQL Database System</papertitle>
               </a>
               <br>
               <u>Duo Lu</u>, Helena Caminal, Manos Chatzakis, Yannis Papakonstantinou, Yannis Chronis, Vaibhav Jain, Fatma Ozcan
               <br>
-              International Conference on Management of Data (<strong>SIGMOD</strong>), 2026. <em>(To appear)</em>
+              International Conference on Management of Data (<strong>SIGMOD</strong>), 2026.
               <br>
+              <a href="data/FVSB - SIGMOD 2026 Presentation.pdf">Presentation</a> /
+              <a href="data/FVSB - SIGMOD 2026 Poster.pptx.pdf">Poster</a>
               <p>
               
               </p>
@@ -128,7 +175,7 @@
               <br>
               Yuliang He,  <u>Duo Lu</u>,  Kaisong Huang,  Tianzheng Wang
               <br>
-              International Conference on Very Large Data Bases (Proceedings of <strong>VLDB</strong>), 2022.
+              International Conference on Very Large Data Bases (<strong>VLDB</strong>), 2022.
               <br>
               <a href="https://arxiv.org/pdf/2201.13047.pdf">Extended Version</a> /
               <a href="https://www.sfu.ca/~kha85/pibench-ep2-vldb.pdf">Slides</a> /
@@ -154,6 +201,23 @@
             <tr> 
               <td style="vertical-align:middle;padding:20px; padding-top:5px; width:100%">
                 <div style="overflow: hidden;">
+                  <span style="float:right; text-align: right;">Jun 2026 ~ Aug 2026</span>
+                  <papertitle>Student Researcher</papertitle>
+                </div>
+                <div style="overflow: hidden">
+                  <span style="float:right; text-align: right;">Sunnyvale, CA, United States</span>
+                  Google, Systems Research Group (SRG)
+                </div>
+                Hosts: Helena Caminal, Yannis Chronis, Fatma Özcan
+                <div style="margin-top: 0px;">
+                  Work on the data search project.
+                </div>
+              </td>
+            </tr>
+
+            <tr> 
+              <td style="vertical-align:middle;padding:20px; padding-top:5px; width:100%">
+                <div style="overflow: hidden;">
                   <span style="float:right; text-align: right;">May 2025 ~ Dec 2025</span>
                   <papertitle>Student Researcher</papertitle>
                 </div>
@@ -161,7 +225,7 @@
                   <span style="float:right; text-align: right;">Sunnyvale, CA, United States</span>
                   Google, Systems Research Group (SRG)
                 </div>
-                Hosts: Helena Caminal, Fatma Özcan
+                Hosts: Helena Caminal, Yannis Chronis, Fatma Özcan
                 <div style="margin-top: 0px;">
                   Develop and evaluate filtered vector search indexes.
                 </div>
@@ -188,6 +252,48 @@
             
           </tr>		
 
+        </tbody>
+
+        <tbody>
+            <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <heading>Talks</heading>
+            </td>
+          </tr>
+
+            <tr>
+              <td style="vertical-align:middle;padding:20px; padding-top:5px; width:100%">
+                <div style="overflow: hidden;">
+                  <span style="float:right; text-align: right;">Apr 2026</span>
+                  <papertitle>Filtered Vector Search in PostgreSQL</papertitle>
+                </div>
+                <div style="overflow: hidden">
+                  <span style="float:right; text-align: right;">Remote</span>
+                  Invited Talk, <a href="https://cs.purdue.edu/homes/csjgwang/CS592VectorDB/">Purdue CS592: Databases for AI: Vector Databases</a>
+                </div>
+                Host: <a href="https://www.cs.purdue.edu/homes/csjgwang/">Prof. Jianguo Wang</a>
+              </td>
+            </tr>
+
+          
+        </tbody>
+
+        <tbody>
+            <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <heading>Services</heading>
+            </td>
+          </tr>
+
+            <tr>
+              <td style="vertical-align:middle;padding:20px; padding-top:5px; width:100%">
+                Shadow PC: <a href="https://vldb.org/2027/shadow-pc.html">VLDB 2027</a>
+                <br>
+                AEC Member: <a href="https://www.caisconf.org/pages/cfa/">ACM CAIS 2026</a> (ACM Conference on AI and Agentic Systems)
+              </td>
+            </tr>
+
+          
         </tbody>
     
     
